@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes externas</title>
+    <style>
+        @font-face {
+            font-family: 'Pokémon' ;
+            src: url(fonte/Pokemon\ Solid.ttf) format('opentype');
+            font-weight: normal;
+            font-style: normal;
+
+
+            /*
+            Tipos de format()
+            - opentype (otf)
+            - truetype (ttf)
+            - embed-opentype
+            - truetype-aat (Apple Advanced Typography)
+            - svg
+            */
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1, h2{
+            font-family: 'Pokémon', 'Times New Roman', Times, serif;
+            font-weight: normal;
+            font-size: 3em;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>Pokémon</h1>
+    <h2>Subtítulo</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque doloribus odio qui reiciendis deserunt accusamus doloremque iusto iste quis quia reprehenderit officia alias, aspernatur illo tempore corrupti. Reprehenderit, soluta unde!</p>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>tentar abrir o site em vários dispositivos diferentes ou simplesmente aumentar e diminuir o tamanho do navegador</p>
+    <picture>
+        <source media="(max-width:750px )" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width:1050px )" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagem flexível">
+    </picture>
+    <h1>Reproduduzindo áudio</h1>
+    <p>olha esse jazz:</p>
+    <audio src="midia/lazy walk cheel.mp3" autoplay  controls></audio> <!-- so funciona com MP3 WAV e OGG-->
+
+    <audio preload="metadata" controls loop> <!--se um não funcionar o outro funciona-->
+    <source src="midia/lazy walk cheel.mp3" type="audio/mpeg">
+    <source src="midia/lazy walk cheel.ogg" type="audio/ogg"> <!--o ogg e o wav são só exemplos já que não tenho o arquivo-->
+    <source src="midia/lazy walk cheel.wav" type="audio/wav"> <!--WAV não é lagal pq é pesado melhor ñ usar-->
+    <p>Infelizmente seu carregador não reproduz áudio <a href="midia/lazy walk cheel.mp3">clique aqui para baixar o arquivo</a> </p>
+    </audio>
+
+    
+
+</body>
+</html>
