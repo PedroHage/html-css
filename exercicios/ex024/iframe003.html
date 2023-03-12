@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navegação no iframe</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe{
+            height: 300px;
+            width: 94vw;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Escolha uma página</h1>
+    <ul>
+        <li><a href="paginas-extras/pagina1.html" target="iframe1">Página 1</a></li>
+        <li><a href="paginas-extras/pagina2.html" target="iframe1">Página 2</a></li>
+        <li><a href="paginas-extras/pagina3.html" target="iframe1">Página 3</a></li>
+    </ul>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque soluta eum, obcaecati consequatur enim temporibus cumque eveniet, culpa sint odit, maiores cum nulla nisi omnis ipsa harum porro eligendi repudiandae? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto odio dolorum ex odit nesciunt sed, a reprehenderit, perspiciatis exercitationem autem voluptas quas eius! Ex delectus voluptatem illum sit, amet sint?</p>
+
+    <iframe name="iframe1" srcdoc="<h1>Olá, escolha uma das opções acima</h1> <p>Muito simples usar iframe, pelo menos o básico ta sendo</p>"></iframe>
+</body>
+</html>
