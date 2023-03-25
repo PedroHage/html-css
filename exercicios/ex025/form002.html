@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+<style>
+    *{
+        font-family: arial, helvetica, sans-serif;
+    }
+</style>
+</head>
+
+<body>
+    <h1>Register to Access the Site</h1>
+    <form action="cadastro.php" method="post" autocomplete="on" >
+        <p>
+            <label for="iuser">Username:</label>
+            <input type="text" name="user" id="iuser" placeholder="user" minlength="3" maxlength="35" autocomplete="username" required size="25">
+        </p>
+        <p>
+            <label for="ipassword">Password :</label>
+            <input type="password" name="password" id="ipassword" placeholder="password" minlength="8" maxlength="30" autocomplete="new-password" required size="25">
+        </p>
+        <p>
+            <input type="submit" value="Register">
+            <input type="reset" value="clean">
+        </p>
+
+    </form>
+</body>
+</html>
