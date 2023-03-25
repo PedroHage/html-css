@@ -27,28 +27,25 @@ iframe{
 
 }
 
-ul{
-    position:relative;
-    width:0px;
-    padding-left:0px;
-    margin:0px;
-    list-style-type: none;
-    left:92%;
-}
-
-li{
-    margin: 20px 0px 0px 0px;
-    padding: 0px;
-    width:0px;
+section{
+    text-align: right;
 }
 
 
 
 img{
     width:50px;
-    border-radius: 30px;
-    box-shadow: 5px 4px 17px black;
-    transition-duration: 1s;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.582);
+    transition-duration: 0.5s;
+    box-sizing: border-box;
+}
+
+section img:hover{
+    border: 2px solid white;
+    transform: translate(-2px, -2px);
+    box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.651);
 }
 
 
